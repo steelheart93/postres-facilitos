@@ -1,0 +1,115 @@
+body{
+  /* Sirve para seleccionar diferentes fuentes de las
+  cuales se selecionara la primera disponible. */
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  /* bold:negrita, bolder:negrota; */
+  font-weight: normal;
+}
+
+.body{
+  /* Espaciado */
+  padding: 60px 15px;
+  /* Es lo mismo que:
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px; */
+}
+
+.pacifico{
+  font-family: 'Pacifico', cursive;
+}
+
+/* Llamado a la clase */
+.main-header{
+  background-color: #34495E;
+  border-radius: 4px;
+  /* Espaciado en el contenedor. */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Llamado a todas las etiquetas con ese nombre. */
+a{
+  width: 33%;
+  display: inline-block;
+  color: white;
+  /* Espaciado entre etiquetas a. Por inline-block. */
+  margin-right: -4px;
+  /* Quito el subrayado de la etiquetas a. */
+  text-decoration: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#titulo{
+  color: rgba(255, 0, 0, 1);
+  font-size: 2.5em;
+
+  /* le quito el margen que trae la etiqueta h1 por defecto. */
+  margin-top: 0;
+}
+
+.main-container{
+  /* Porcentaje de la pantalla en la que vemos la pagina. */
+  min-height: 100vh;
+}
+
+.productos img{
+  width: 150px;
+}
+
+.productos h3{
+  /* 170% del tamaño actual */
+  font-size: 1.7em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card{
+  /* borde redondeado */
+  border-radius: 4px;
+  background-color: white;
+  /* sombra(x, y, opcionales(desenfoque, propagación (tamaño de la sombra)), color), sombra2(...) */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.tresD{
+  text-shadow: 1px 3px 0px #6B251D, 1px 13px 5px rgb(171, 168, 168);
+}
+
+.delay-1{
+  animation-delay: 0.1s;
+  position: relative;
+  /* Aparece por encima de las otras animaciones con prioridad 5. */
+  z-index: 5;
+}
+
+.delay-2{
+  animation-delay: 0.2s;
+  position: relative;
+  z-index: 4;
+}
+
+.delay-3{
+  animation-delay: 0.3s;
+  position: relative;
+  z-index: 3;
+}
+
+.delay-4{
+  animation-delay: 0.4s;
+  position: relative;
+  z-index: 2;
+}
+
+.delay-5{
+  animation-delay: 0.5s;
+  position: relative;
+  z-index: 1;
+}
