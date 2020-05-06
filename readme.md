@@ -1,2 +1,2 @@
 # Postres Facilitos
-Uno de los cursos, Mi Primera Página Web de Código Facilito
+Resultado del curso mi primera página web de Código Facilito, que incluye el uso de Google Maps embedido.
